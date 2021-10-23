@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg--color: #000000;
+    --primary--color: #3D0000;
+    --secondary--color: #950101;
+    --extra--color:#FF0000;
+}
+
+body{
+    background-color: var(--bg--color);
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+h2{
+    font-size: 3.5rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+
+.currency__wrapper{
+    width: 100%;
+    min-height: 100vh;
+}
+.card{
+    width: 450px;
+    background-color: var(--primary--color);
+    color: var(--extra--color);
+}
+.content{
+    margin-top: 2rem;
+}
+
+
+.to__wrapper{
+    margin-top: 1rem;
+}
+
+input{
+    width: 70% !important;
+    margin-right: 1rem;
+    background: var(--secondary--color) !important;
+    border: none !important;
+    outline: none !important;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+select{
+    width: 30%  !important;
+    background: var(--secondary--color) !important;
+    border: none !important;
+    padding: 0.8rem;
+    color: var(--extra--color) !important;
+}
+
+input, select{
+    margin-top: 0.8rem;
+    outline: none;
+}
+
+input::placeholder{
+    color: var(--extra--color) !important;
+}
+
+
+
+label{
+    margin-bottom: 3rem !important;
+    color: white;
+}
